@@ -66,7 +66,7 @@ const cards = [
     }
 ]
 
-cards.forEach(function(card) {
+cards.forEach((card) => {
     const section = document.createElement('section')
     section.classList.add('card')
 

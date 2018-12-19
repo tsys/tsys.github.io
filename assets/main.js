@@ -13,7 +13,7 @@ const navItems = [
     },
     {
         href: 'https://developers.tsys.com',
-        text: 'Docs'
+        text: 'APIs'
     },
     {
         href: 'https://gitdhub.com/tsys',

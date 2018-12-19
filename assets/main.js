@@ -38,30 +38,30 @@ const cardContainer = document.querySelector('.card-container')
 
 const cards = [
     {
-        title: 'Explore APIs',
+        title: 'Issuing Essentials in North America',
         body:
-            'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet voluptas ducimus natus asperiores ea quos nihil accusamus quod.',
+            'Card, Account Payments, Customer, Financial Institutions, and Transaction APIs.',
         link: {
-            href: 'https://developers.tsys.com/api',
+            href: 'https://developers.tsys.com/api/product?key=Issuing+Essentials',
+            text: 'Issuing Essentials'
+        }
+    },
+    {
+        title: 'Loyalty Experiences',
+        body:
+            'Rewards APIs allow customers to see the rewards they have earned through their loyalty account. These APIs also let the customer spend and redeem their rewards.',
+        link: {
+            href: 'https://developers.tsys.com/api/product?key=Loyalty+Experiences',
             text: ''
         }
     },
     {
-        title: 'View My Apps',
+        title: 'Digital Experiences in International',
         body:
-            'Eveniet voluptas ducimus natus asperiores ea quos nihil accusamus quod. Modi officia non inventore odit, consequatur natus veniam.',
+            'Payment, Activations, Identity Providers, Activity, Alerts and other APIs that enable world class digital experience.',
         link: {
-            href: 'https://developers.tsys.com/applications',
-            text: ''
-        }
-    },
-    {
-        title: 'Resources',
-        body:
-            'Modi officia non inventore odit, consequatur natus veniam. Natus placeat repellendus pariatur.',
-        link: {
-            href: 'https://developers.tsys.com/resources',
-            text: ''
+            href: 'https://intl.developers.tsys.com/api/product?key=Digital+Experiences',
+            text: 'Digital Experiences'
         }
     }
 ]

@@ -1,0 +1,34 @@
+/* 
+TSYS primary, secondary, and tertiary color palettes
+    Sampled from https://www.tsys.com/brand/visual-toolkit/color-palette-specifications.html
+    on 12/19/2018
+    at 10:43AM
+    with the following console script:
+        [...document.querySelectorAll('.color-hdr:not(.temp)')]
+            .map(block => `--${block.textContent.trim().toUpperCase().replace(' ', '-')}: ${block.style.backgroundColor};`)
+            .join('\n')
+*/
+
+:root {
+    --TSYS-NAVY: rgb(0, 64, 110);
+    --WHITE: rgb(255, 255, 255);
+    --LIGHT-BLUE: rgb(87, 201, 232);
+    --LIGHT-TEAL: rgb(28, 207, 201);
+    --LIGHT-GREEN: rgb(114, 197, 150);
+    --LIGHT-RED: rgb(235, 104, 82);
+    --YELLOW: rgb(255, 198, 39);
+    --BLUE: rgb(0, 124, 186);
+    --TEAL: rgb(0, 161, 175);
+    --GREEN: rgb(0, 149, 94);
+    --RED: rgb(214, 0, 28);
+    --ORANGE: rgb(255, 103, 27);
+    --TEXT-GRAY: rgb(81, 76, 72);
+    --GRAY: rgb(174, 162, 153);
+    --SOFT-GRAY: rgb(246, 242, 236);
+    --LIGHT-BEIGE: rgb(219, 194, 182);
+    --LIGHT-BROWN: rgb(194, 148, 115);
+    --DARK-GRAY: rgb(121, 110, 101);
+    --LIGHT-GRAY: rgb(216, 209, 202);
+    --BEIGE: rgb(195, 162, 145);
+    --BROWN: rgb(152, 95, 53);
+}

@@ -16,7 +16,7 @@ const navItems = [
         text: 'APIs'
     },
     {
-        href: 'https://gitdhub.com/tsys',
+        href: 'https://github.com/tsys',
         text: 'Open Source'
     },
     {
